@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013/12/12 ?? 05:10:09 by Hibernate Tools 4.0.0 -->
+<hibernate-mapping>
+    <class name="com.zstrength.usr.pojo.UsrMembers" table="usr_members" catalog="Snail">
+        <id name="memberId" type="string">
+            <column name="member_id" length="20" />
+            <generator class="assigned" />
+        </id>
+        <property name="personalId" type="string">
+            <column name="personal_id" length="45" not-null="true">
+                <comment>???</comment>
+            </column>
+        </property>
+        <property name="passwd" type="string">
+            <column name="passwd" length="45" not-null="true">
+                <comment>?????</comment>
+            </column>
+        </property>
+        <property name="chineseName" type="string">
+            <column name="chinese_name" length="45" not-null="true">
+                <comment>??</comment>
+            </column>
+        </property>
+        <property name="mobile" type="string">
+            <column name="mobile" length="45" not-null="true">
+                <comment>????</comment>
+            </column>
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="50" />
+        </property>
+        <property name="homePhone" type="string">
+            <column name="home_phone" length="45">
+                <comment>????</comment>
+            </column>
+        </property>
+        <property name="officePhone" type="string">
+            <column name="office_phone" length="45">
+                <comment>????</comment>
+            </column>
+        </property>
+        <property name="city" type="string">
+            <column name="city" length="45">
+                <comment>????</comment>
+            </column>
+        </property>
+        <property name="county" type="string">
+            <column name="county" length="45">
+                <comment>????</comment>
+            </column>
+        </property>
+        <property name="area" type="string">
+            <column name="area" length="45">
+                <comment>??</comment>
+            </column>
+        </property>
+        <property name="address1" type="string">
+            <column name="address1" length="50">
+                <comment>???</comment>
+            </column>
+        </property>
+        <property name="address2" type="string">
+            <column name="address2" length="45" />
+        </property>
+        <property name="birthday" type="string">
+            <column name="birthday" length="45">
+                <comment>?????</comment>
+            </column>
+        </property>
+        <property name="sex" type="string">
+            <column name="sex" length="45">
+                <comment>??</comment>
+            </column>
+        </property>
+        <property name="status" type="string">
+            <column name="status" length="45" not-null="true">
+                <comment>??</comment>
+            </column>
+        </property>
+        <property name="createdDatetime" type="timestamp">
+            <column name="created_datetime" length="19" not-null="true">
+                <comment>????</comment>
+            </column>
+        </property>
+        <property name="validatedDatetime" type="timestamp">
+            <column name="validated_datetime" length="19">
+                <comment>??????</comment>
+            </column>
+        </property>
+        <property name="updatedDatetime" type="timestamp">
+            <column name="updated_datetime" length="19" />
+        </property>
+        <property name="remark" type="string">
+            <column name="remark" length="45">
+                <comment>??</comment>
+            </column>
+        </property>
+    </class>
+</hibernate-mapping>

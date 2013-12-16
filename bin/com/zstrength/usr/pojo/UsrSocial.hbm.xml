@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013/12/12 ?? 05:10:09 by Hibernate Tools 4.0.0 -->
+<hibernate-mapping>
+    <class name="com.zstrength.usr.pojo.UsrSocial" table="usr_social" catalog="Snail">
+        <id name="socialId" type="string">
+            <column name="social_id" length="20" />
+            <generator class="assigned" />
+        </id>
+        <property name="socialName" type="string">
+            <column name="social_name" length="50" not-null="true">
+                <comment>????</comment>
+            </column>
+        </property>
+        <property name="memberCount" type="int">
+            <column name="member_count" not-null="true">
+                <comment>????</comment>
+            </column>
+        </property>
+        <property name="createdDatetime" type="timestamp">
+            <column name="created_datetime" length="19" not-null="true">
+                <comment>????</comment>
+            </column>
+        </property>
+        <property name="updatedDatetime" type="timestamp">
+            <column name="updated_datetime" length="19">
+                <comment>??????</comment>
+            </column>
+        </property>
+    </class>
+</hibernate-mapping>
