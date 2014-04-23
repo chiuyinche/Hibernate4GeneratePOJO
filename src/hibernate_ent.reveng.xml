@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table-filter match-name="ent_all_accounts"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="ent_basic_infos"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="ent_employees"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="ent_member_level"
+		match-catalog="snailhouse">
+	</table-filter>
+</hibernate-reverse-engineering>

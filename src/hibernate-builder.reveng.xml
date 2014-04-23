@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table-filter match-name="builder_proj_addons"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="builder_proj_appoints"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="builder_proj_discount_setups"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="builder_proj_discounts"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="builder_proj_files"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="builder_proj_parkings"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="builder_proj_photos"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="builder_proj_questions"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="builder_proj_spec_details"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="builder_proj_specs"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="builder_projects"
+		match-catalog="snailhouse">
+	</table-filter>
+</hibernate-reverse-engineering>

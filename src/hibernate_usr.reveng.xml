@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table-filter match-name="usr_all_accounts"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="usr_appointerments"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="usr_calculators"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="usr_changed_records"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="usr_collections"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="usr_logined_records"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="usr_member_level"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="usr_members" match-catalog="SnailHouse"></table-filter>
+</hibernate-reverse-engineering>

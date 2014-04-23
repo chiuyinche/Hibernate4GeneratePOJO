@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table-filter match-name="basic_actual_selling_prices"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="basic_addresses"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="basic_banks" match-catalog="SnailHouse"></table-filter>
+	<table-filter match-name="basic_building_case_details"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="basic_building_cases"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="basic_functions"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="basic_mapcodes"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="basic_member_roles"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="basic_notify_templates"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="basic_permissions"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="basic_roles" match-catalog="SnailHouse"></table-filter>
+</hibernate-reverse-engineering>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table-filter match-name="billing_daily_writeoffs"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="billing_payments"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="billing_remittances"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="billing_vir_accounts"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="billing_vir_acct_records"
+		match-catalog="SnailHouse">
+	</table-filter>
+	<table-filter match-name="billing_viracct_writeoffs"
+		match-catalog="SnailHouse">
+	</table-filter>
+</hibernate-reverse-engineering>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="SnailHouse" match-name="obj_files"/>
+  <table-filter match-catalog="SnailHouse" match-name="obj_houses"/>
+  <table-filter match-catalog="SnailHouse" match-name="obj_parkings"/>
+  <table-filter match-catalog="SnailHouse" match-name="obj_photos"/>
+  <table-filter match-catalog="SnailHouse" match-name="obj_questions"/>
+  <table-filter match-catalog="SnailHouse" match-name="obj_settings"/>
+  <table-filter match-catalog="SnailHouse" match-name="obj_videos"/>
+</hibernate-reverse-engineering>
