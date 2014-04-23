@@ -11,6 +11,9 @@
 	<table-filter match-name="ent_employees"
 		match-catalog="snailhouse">
 	</table-filter>
+	<table-filter match-name="ent_logined_records"
+		match-catalog="snailhouse">
+	</table-filter>
 	<table-filter match-name="ent_member_level"
 		match-catalog="snailhouse">
 	</table-filter>

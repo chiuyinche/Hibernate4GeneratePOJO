@@ -2,22 +2,40 @@
 <!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
 
 <hibernate-reverse-engineering>
+	<table-filter match-name="billing_b2c_invoices"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="billing_creditcard_payment_history"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="billing_creditcard_payments"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="billing_creditcard_processings"
+		match-catalog="snailhouse">
+	</table-filter>
 	<table-filter match-name="billing_daily_writeoffs"
-		match-catalog="SnailHouse">
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="billing_object_orders"
+		match-catalog="snailhouse">
 	</table-filter>
 	<table-filter match-name="billing_payments"
-		match-catalog="SnailHouse">
+		match-catalog="snailhouse">
 	</table-filter>
 	<table-filter match-name="billing_remittances"
-		match-catalog="SnailHouse">
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="billing_txn_results"
+		match-catalog="snailhouse">
 	</table-filter>
 	<table-filter match-name="billing_vir_accounts"
-		match-catalog="SnailHouse">
+		match-catalog="snailhouse">
 	</table-filter>
 	<table-filter match-name="billing_vir_acct_records"
-		match-catalog="SnailHouse">
+		match-catalog="snailhouse">
 	</table-filter>
 	<table-filter match-name="billing_viracct_writeoffs"
-		match-catalog="SnailHouse">
+		match-catalog="snailhouse">
 	</table-filter>
 </hibernate-reverse-engineering>

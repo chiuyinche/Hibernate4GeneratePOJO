@@ -3,25 +3,29 @@
 
 <hibernate-reverse-engineering>
 	<table-filter match-name="usr_all_accounts"
-		match-catalog="SnailHouse">
+		match-catalog="snailhouse">
 	</table-filter>
 	<table-filter match-name="usr_appointerments"
-		match-catalog="SnailHouse">
+		match-catalog="snailhouse">
 	</table-filter>
 	<table-filter match-name="usr_calculators"
-		match-catalog="SnailHouse">
+		match-catalog="snailhouse">
 	</table-filter>
 	<table-filter match-name="usr_changed_records"
-		match-catalog="SnailHouse">
+		match-catalog="snailhouse">
 	</table-filter>
 	<table-filter match-name="usr_collections"
-		match-catalog="SnailHouse">
+		match-catalog="snailhouse">
 	</table-filter>
 	<table-filter match-name="usr_logined_records"
-		match-catalog="SnailHouse">
+		match-catalog="snailhouse">
 	</table-filter>
 	<table-filter match-name="usr_member_level"
-		match-catalog="SnailHouse">
+		match-catalog="snailhouse">
 	</table-filter>
-	<table-filter match-name="usr_members" match-catalog="SnailHouse"></table-filter>
+	<table-filter match-name="usr_members" match-catalog="snailhouse"></table-filter>
+	<table-filter match-name="usr_social" match-catalog="snailhouse"></table-filter>
+	<table-filter match-name="usr_social_member"
+		match-catalog="snailhouse">
+	</table-filter>
 </hibernate-reverse-engineering>
