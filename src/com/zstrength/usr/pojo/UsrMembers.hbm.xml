@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Nov 26, 2014 9:13:26 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.zstrength.usr.pojo.UsrMembers" table="usr_members" catalog="snailhouse" optimistic-lock="version">
+        <id name="memberId" type="string">
+            <column name="member_id" length="36" />
+            <generator class="identity" />
+        </id>
+        <property name="memberNumber" type="int">
+            <column name="member_number" not-null="true">
+                <comment>&#230;&#156;&#131;&#229;&#147;&#161;&#231;&#183;&#168;&#232;&#153;&#159;</comment>
+            </column>
+        </property>
+        <property name="personalId" type="string">
+            <column name="personal_id" length="10" not-null="true">
+                <comment>&#232;&#186;&#171;&#228;&#187;&#189;&#232;&#173;&#137;</comment>
+            </column>
+        </property>
+        <property name="passwd" type="string">
+            <column name="passwd" length="64" not-null="true">
+                <comment>&#228;&#189;&#191;&#231;&#148;&#168;&#232;&#128;&#133;&#229;&#175;&#134;&#231;&#162;&#188;</comment>
+            </column>
+        </property>
+        <property name="chineseName" type="string">
+            <column name="chinese_name" length="20">
+                <comment>&#229;&#167;&#147;&#229;&#144;&#141;</comment>
+            </column>
+        </property>
+        <property name="mobile" type="string">
+            <column name="mobile" length="20" not-null="true">
+                <comment>&#230;&#137;&#139;&#230;&#169;&#159;&#232;&#153;&#159;&#231;&#162;&#188;</comment>
+            </column>
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="50" not-null="true">
+                <comment>&#233;&#155;&#187;&#229;&#173;&#144;&#228;&#191;&#161;&#231;&#174;&#177;</comment>
+            </column>
+        </property>
+        <property name="homePhone" type="string">
+            <column name="home_phone" length="12">
+                <comment>&#229;&#174;&#182;&#232;&#163;&#161;&#233;&#155;&#187;&#232;&#169;&#177;</comment>
+            </column>
+        </property>
+        <property name="officePhone" type="string">
+            <column name="office_phone" length="12">
+                <comment>&#229;&#133;&#172;&#229;&#143;&#184;&#233;&#155;&#187;&#232;&#169;&#177;</comment>
+            </column>
+        </property>
+        <property name="faxNo" type="string">
+            <column name="fax_no" length="12">
+                <comment>&#229;&#130;&#179;&#231;&#156;&#159;&#232;&#153;&#159;&#231;&#162;&#188;</comment>
+            </column>
+        </property>
+        <property name="birthday" type="string">
+            <column name="birthday" length="10">
+                <comment>&#229;&#135;&#186;&#231;&#148;&#159;&#229;&#185;&#180;&#230;&#156;&#136;&#230;&#151;&#165;</comment>
+            </column>
+        </property>
+        <property name="gender" type="string">
+            <column name="gender" length="1">
+                <comment>&#230;&#128;&#167;&#229;&#136;&#165;</comment>
+            </column>
+        </property>
+        <property name="marriedStatus" type="string">
+            <column name="married_status" length="1">
+                <comment>&#229;&#169;&#154;&#229;&#167;&#187;&#231;&#139;&#128;&#230;&#179;&#129;</comment>
+            </column>
+        </property>
+        <property name="education" type="string">
+            <column name="education" length="3">
+                <comment>&#230;&#149;&#153;&#232;&#130;&#178;&#231;&#168;&#139;&#229;&#186;&#166;</comment>
+            </column>
+        </property>
+        <property name="job" type="string">
+            <column name="job" length="3">
+                <comment>&#232;&#129;&#183;&#230;&#165;&#173;</comment>
+            </column>
+        </property>
+        <property name="monthlyIncome" type="string">
+            <column name="monthly_income" length="3">
+                <comment>&#230;&#156;&#136;&#230;&#148;&#182;&#229;&#133;&#165;</comment>
+            </column>
+        </property>
+        <property name="status" type="char">
+            <column name="status" length="1" not-null="true">
+                <comment>&#231;&#139;&#128;&#230;&#133;&#139;</comment>
+            </column>
+        </property>
+        <property name="censusRegion" type="string">
+            <column name="census_region" length="5">
+                <comment>&#230;&#136;&#182;&#231;&#177;&#141;&#229;&#141;&#128;&#229;&#159;&#159;</comment>
+            </column>
+        </property>
+        <property name="censusSection" type="string">
+            <column name="census_section" length="5">
+                <comment>&#230;&#136;&#182;&#231;&#177;&#141;&#229;&#136;&#134;&#229;&#141;&#128;</comment>
+            </column>
+        </property>
+        <property name="censusStreet" type="string">
+            <column name="census_street" length="6">
+                <comment>&#230;&#136;&#182;&#231;&#177;&#141;&#232;&#161;&#151;&#233;&#129;&#147;</comment>
+            </column>
+        </property>
+        <property name="censusAlley" type="java.lang.Integer">
+            <column name="census_alley">
+                <comment>&#230;&#136;&#182;&#231;&#177;&#141;&#229;&#183;&#183;</comment>
+            </column>
+        </property>
+        <property name="censusLane" type="java.lang.Integer">
+            <column name="census_lane">
+                <comment>&#230;&#136;&#182;&#231;&#177;&#141;&#229;&#188;&#132;</comment>
+            </column>
+        </property>
+        <property name="censusFloor" type="java.lang.Integer">
+            <column name="census_floor">
+                <comment>&#230;&#136;&#182;&#231;&#177;&#141;&#230;&#168;&#147;</comment>
+            </column>
+        </property>
+        <property name="censusAddrNumber" type="string">
+            <column name="census_addr_number" length="10">
+                <comment>&#230;&#136;&#182;&#231;&#177;&#141;&#232;&#153;&#159;</comment>
+            </column>
+        </property>
+        <property name="censusSuite" type="java.lang.Integer">
+            <column name="census_suite">
+                <comment>&#230;&#136;&#182;&#231;&#177;&#141;&#229;&#174;&#164;</comment>
+            </column>
+        </property>
+        <property name="comRegion" type="string">
+            <column name="com_region" length="5">
+                <comment>&#233;&#128;&#154;&#232;&#168;&#138;&#229;&#141;&#128;&#229;&#159;&#159;</comment>
+            </column>
+        </property>
+        <property name="comSection" type="string">
+            <column name="com_section" length="5">
+                <comment>&#233;&#128;&#154;&#232;&#168;&#138;&#229;&#136;&#134;&#229;&#141;&#128;</comment>
+            </column>
+        </property>
+        <property name="comStreet" type="string">
+            <column name="com_street" length="6">
+                <comment>&#233;&#128;&#154;&#232;&#168;&#138;&#232;&#161;&#151;&#233;&#129;&#147;</comment>
+            </column>
+        </property>
+        <property name="comAlley" type="java.lang.Integer">
+            <column name="com_alley">
+                <comment>&#233;&#128;&#154;&#232;&#168;&#138;&#229;&#183;&#183;</comment>
+            </column>
+        </property>
+        <property name="comLane" type="java.lang.Integer">
+            <column name="com_lane">
+                <comment>&#233;&#128;&#154;&#232;&#168;&#138;&#229;&#188;&#132;</comment>
+            </column>
+        </property>
+        <property name="comFloor" type="java.lang.Integer">
+            <column name="com_floor">
+                <comment>&#233;&#128;&#154;&#232;&#168;&#138;&#230;&#168;&#147;</comment>
+            </column>
+        </property>
+        <property name="comAddrNumber" type="string">
+            <column name="com_addr_number" length="10">
+                <comment>&#233;&#128;&#154;&#232;&#168;&#138;&#232;&#153;&#159;</comment>
+            </column>
+        </property>
+        <property name="comSuite" type="java.lang.Integer">
+            <column name="com_suite">
+                <comment>&#233;&#128;&#154;&#232;&#168;&#138;&#229;&#174;&#164;</comment>
+            </column>
+        </property>
+        <property name="updatedDatetime" type="timestamp">
+            <column name="updated_datetime" length="19">
+                <comment>&#230;&#155;&#180;&#230;&#150;&#176;&#230;&#153;&#130;&#233;&#150;&#147;</comment>
+            </column>
+        </property>
+        <property name="createdDatetime" type="timestamp">
+            <column name="created_datetime" length="19" not-null="true">
+                <comment>&#229;&#187;&#186;&#231;&#171;&#139;&#230;&#153;&#130;&#233;&#150;&#147;</comment>
+            </column>
+        </property>
+        <property name="mobileValidatedDatetime" type="timestamp">
+            <column name="mobile_validated_datetime" length="19">
+                <comment>&#230;&#137;&#139;&#230;&#169;&#159;&#233;&#169;&#151;&#232;&#173;&#137;&#230;&#153;&#130;&#233;&#150;&#147;</comment>
+            </column>
+        </property>
+        <property name="emailValidatedDatetime" type="timestamp">
+            <column name="email_validated_datetime" length="19">
+                <comment>Email&#233;&#169;&#151;&#232;&#173;&#137;&#230;&#153;&#130;&#233;&#150;&#147;</comment>
+            </column>
+        </property>
+        <property name="remark" type="string">
+            <column name="remark" length="50">
+                <comment>&#229;&#130;&#153;&#232;&#168;&#187;</comment>
+            </column>
+        </property>
+    </class>
+</hibernate-mapping>

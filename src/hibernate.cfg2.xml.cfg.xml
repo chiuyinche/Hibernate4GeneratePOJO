@@ -4,10 +4,10 @@
 		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="hibernate.connection.driver_class">org.gjt.mm.mysql.Driver</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.connection.password">root</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/snailhouse</property>
+        <property name="hibernate.connection.url">jdbc:mysql://192.168.0.38:3306/snailhouse</property>
         <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
     </session-factory>
 </hibernate-configuration>

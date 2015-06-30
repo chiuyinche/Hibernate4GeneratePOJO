@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 24, 2015 4:56:54 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.zstrength.bargain.pojo.BargainRooms" table="bargain_rooms" catalog="snailhouse">
+        <id name="roomId" type="java.lang.Integer">
+            <column name="room_id" />
+            <generator class="identity" />
+        </id>
+        <property name="objectId" type="int">
+            <column name="object_id" not-null="true">
+                <comment>&#231;&#137;&#169;&#228;&#187;&#182;&#228;&#187;&#163;&#231;&#162;&#188;</comment>
+            </column>
+        </property>
+        <property name="sellerId" type="string">
+            <column name="seller_id" length="36" not-null="true">
+                <comment>&#232;&#179;&#163;&#229;&#174;&#182;</comment>
+            </column>
+        </property>
+        <property name="sellerType" type="boolean">
+            <column name="seller_type" not-null="true">
+                <comment>&#232;&#179;&#163;&#229;&#174;&#182;&#233;&#161;&#158;&#229;&#158;&#139;</comment>
+            </column>
+        </property>
+        <property name="buyerId" type="string">
+            <column name="buyer_id" length="36" not-null="true">
+                <comment>&#232;&#178;&#183;&#229;&#174;&#182;</comment>
+            </column>
+        </property>
+        <property name="buyerType" type="boolean">
+            <column name="buyer_type" not-null="true">
+                <comment>&#232;&#178;&#183;&#229;&#174;&#182;&#233;&#161;&#158;&#229;&#158;&#139;</comment>
+            </column>
+        </property>
+        <property name="buyerStatus" type="int">
+            <column name="buyer_status" not-null="true">
+                <comment>&#232;&#178;&#183;&#229;&#174;&#182;&#231;&#139;&#128;&#230;&#133;&#139;</comment>
+            </column>
+        </property>
+        <property name="createdDatetime" type="timestamp">
+            <column name="created_datetime" length="19" not-null="true">
+                <comment>&#229;&#187;&#186;&#231;&#171;&#139;&#230;&#153;&#130;&#233;&#150;&#147;</comment>
+            </column>
+        </property>
+        <property name="updatedDatetime" type="timestamp">
+            <column name="updated_datetime" length="19">
+                <comment>updated_datetime</comment>
+            </column>
+        </property>
+    </class>
+</hibernate-mapping>
