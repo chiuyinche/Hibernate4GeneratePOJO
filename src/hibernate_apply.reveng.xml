@@ -2,7 +2,7 @@
 <!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
 
 <hibernate-reverse-engineering>
-	<table-filter match-name="coupon_groups"
+	<table-filter match-name="apply_publish"
 		match-catalog="snailhouse">
 	</table-filter>
 </hibernate-reverse-engineering>

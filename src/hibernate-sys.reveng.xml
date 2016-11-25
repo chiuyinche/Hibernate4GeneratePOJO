@@ -2,17 +2,7 @@
 <!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
 
 <hibernate-reverse-engineering>
-	<table-filter match-name="sys_creditcard_batchs"
+	<table-filter match-name="sys_shorturls"
 		match-catalog="snailhouse">
 	</table-filter>
-	<table-filter match-name="sys_epayment_files"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="sys_image_queues"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="sys_notifications"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="sys_otps" match-catalog="snailhouse"></table-filter>
 </hibernate-reverse-engineering>
