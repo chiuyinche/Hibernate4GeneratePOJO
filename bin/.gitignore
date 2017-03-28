@@ -1,4 +1,3 @@
-/com/
 /hibernate-billing.reveng.xml
 /hibernate-builder.reveng.xml
 /hibernate-cmn.reveng.xml
@@ -13,10 +12,13 @@
 /hibernate.cfg2.xml.cfg.xml
 /hibernate.reveng.xml
 /hibernate3.reveng.xml
+/hibernate_ad.reveng.xml
 /hibernate_apply.reveng.xml
 /hibernate_basic.reveng.xml
 /hibernate_ent.reveng.xml
 /hibernate_object.reveng.xml
 /hibernate_usr.reveng.xml
 /index.html
-/hibernate_ad.reveng.xml
+/com/
+/hibernate2.reveng.xml
+/hibernate_event.reveng.xml

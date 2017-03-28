@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 28, 2017 3:53:41 PM by Hibernate Tools 5.2.1.Final -->
+<hibernate-mapping>
+    <class name="com.zstrength.obj.pojo.ObjAds" table="obj_ads" catalog="snailhouse" optimistic-lock="version">
+        <composite-id name="id" class="com.zstrength.obj.pojo.ObjAdsId">
+            <key-property name="adId" type="int">
+                <column name="ad_id" />
+            </key-property>
+            <key-property name="refType" type="int">
+                <column name="ref_type" />
+            </key-property>
+            <key-property name="refId" type="int">
+                <column name="ref_id" />
+            </key-property>
+        </composite-id>
+        <property name="remark" type="string">
+            <column name="remark" length="100">
+                <comment>&#229;&#130;&#153;&#232;&#168;&#187;</comment>
+            </column>
+        </property>
+        <property name="employeeId" type="int">
+            <column name="employee_id" not-null="true">
+                <comment>&#231;&#183;&#168;&#232;&#188;&#175;&#228;&#186;&#186;&#229;&#147;&#161;&#229;&#147;&#161;&#229;&#183;&#165;ID</comment>
+            </column>
+        </property>
+        <property name="updatedDatetime" type="timestamp">
+            <column name="updated_datetime" length="19">
+                <comment>&#228;&#184;&#138;&#230;&#172;&#161;&#230;&#155;&#180;&#230;&#150;&#176;&#230;&#153;&#130;&#233;&#150;&#147;</comment>
+            </column>
+        </property>
+        <property name="createdDatetime" type="timestamp">
+            <column name="created_datetime" length="19">
+                <comment>&#229;&#187;&#186;&#231;&#171;&#139;&#230;&#153;&#130;&#233;&#150;&#147;</comment>
+            </column>
+        </property>
+    </class>
+</hibernate-mapping>
