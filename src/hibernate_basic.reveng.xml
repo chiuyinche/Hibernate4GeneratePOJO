@@ -2,16 +2,7 @@
 <!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
 
 <hibernate-reverse-engineering>
-	<table-filter match-name="basic_actual_selling_building_infos"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="basic_actual_selling_land_infos"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="basic_actual_selling_parking_infos"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="basic_actual_selling_prices"
+	<table-filter match-name="basic_feature_templates"
 		match-catalog="snailhouse">
 	</table-filter>
 </hibernate-reverse-engineering>

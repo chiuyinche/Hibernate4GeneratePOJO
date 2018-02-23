@@ -3,4 +3,113 @@
 
 <hibernate-reverse-engineering>
 	<table-filter match-name="obj_ads" match-catalog="snailhouse"></table-filter>
+	<table-filter match-name="obj_appoints"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_appoints_history"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_articles"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_auto_changes"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_auto_executives"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_auto_pro_records"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_auto_programs"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_certificates"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_cha_records"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_channels"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_event_logs"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_features"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_files" match-catalog="snailhouse"></table-filter>
+	<table-filter match-name="obj_houses" match-catalog="snailhouse"></table-filter>
+	<table-filter match-name="obj_houses_price_history"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_houses_status_history"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_icons" match-catalog="snailhouse"></table-filter>
+	<table-filter match-name="obj_owner_sales"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_owner_sales_history"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_parkings"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_photos" match-catalog="snailhouse"></table-filter>
+	<table-filter match-name="obj_price_inquiry"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_price_inquiry_detail"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_questions"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_recommends"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_ref_links"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_ref_links_price_history"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_selected"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_settings"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_settings_price_history"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_sphere_photos"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_theme_objects"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_themes" match-catalog="snailhouse"></table-filter>
+	<table-filter match-name="obj_themes_statistics"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_txn_prog_details"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_txn_progresses"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_txn_templates"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_verify" match-catalog="snailhouse"></table-filter>
+	<table-filter match-name="obj_videos" match-catalog="snailhouse"></table-filter>
+	<table-filter match-name="obj_visit_daily_statistics"
+		match-catalog="snailhouse">
+	</table-filter>
+	<table-filter match-name="obj_visit_statistics"
+		match-catalog="snailhouse">
+	</table-filter>
 </hibernate-reverse-engineering>
