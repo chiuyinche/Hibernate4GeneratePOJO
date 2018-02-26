@@ -2,49 +2,7 @@
 <!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
 
 <hibernate-reverse-engineering>
-	<table-filter match-name="ent_all_accounts"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="ent_basic_infos"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="ent_div_buildings"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="ent_divisions"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="ent_employee_favorites"
-		match-catalog="snailhouse">
-	</table-filter>
 	<table-filter match-name="ent_employee_profiles"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="ent_employees"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="ent_logined_records"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="ent_member_level"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="ent_notify_messages"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="ent_notify_templates"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="ent_sales_buildings"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="ent_sales_divisions"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="ent_sales_limitations"
-		match-catalog="snailhouse">
-	</table-filter>
-	<table-filter match-name="ent_todo_lists"
 		match-catalog="snailhouse">
 	</table-filter>
 </hibernate-reverse-engineering>
